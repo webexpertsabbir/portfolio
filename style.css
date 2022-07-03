@@ -1,8 +1,11 @@
-@font-face {
-    font-family: sabbir;
-    src: url(/font/arial_narrow_7.ttf);
+*{
+  margin: 0;
+  padding: 0;
 }
-.ad-css h1,p{
-  font-family: sabbir;
+.header-continer{
+  margin: 0 50px;
+  display: flex;
 }
-
+.header-logo{
+  justify-content: ;
+}
