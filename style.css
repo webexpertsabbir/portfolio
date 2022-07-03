@@ -6,6 +6,7 @@
   margin: 0 100px;
   display: flex;
   justify-content: space-between;
+  margin-top: 15px;
 }
 .header-menu ul{
   display: flex;
@@ -23,15 +24,34 @@
   cursor: pointer;
 }
 
-.header-reg .btn{
-  background-color: red;
-  border: none;
-  font-size: 16px;
-  font-weight: 600;
+#btn{
+  padding: 10px 20px;
+ 
+ color:#000;
+ border: none;
+ border-radius: 5px;
+ font-size: 18px;
+ font-weight: 500;
+}
+#btn:hover{
+  color: red;
+  cursor: pointer;
+}
+.fa-user{
+  margin-right: 10px;
+}
 
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 5px 10px;
-  border-radius: 5px;
-  margin-top: 10px;
-  color: #fff;
+.btn{
+  padding: 10px 20px;
+ 
+ color: #fff;
+ background: red;
+ border: none;
+ border-radius: 5px;
+ font-size: 18px;
+ font-weight: 500;
+}
+
+.header-menu ul li:hover{
+  color: red;
 }
