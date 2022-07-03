@@ -1,0 +1,8 @@
+@font-face {
+    font-family: sabbir;
+    src: url(/font/arial_narrow_7.ttf);
+}
+.ad-css h1,p{
+  font-family: sabbir;
+}
+
