@@ -104,4 +104,11 @@ body{
 .baner-left button:hover{
   background-color: red;
   color: #fff;
+  cursor: pointer;
+}
+.baner-left h3 {
+  display: inline-block;
+}
+.fedback{
+  margin-top: 30px;
 }
